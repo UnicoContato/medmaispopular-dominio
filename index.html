@@ -189,9 +189,9 @@
     <section id="unidades" class="py-12 bg-gray-100/50">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold mb-4 text-center text-brand-dark reveal">Nossas Unidades</h2>
-            <p class="text-center text-gray-500 mb-8 reveal">Clique em uma loja para ver a localização e o telefone.</p>
+            <p class="text-center text-gray-500 mb-8 reveal">Clique em uma loja para ver a localização e o contato.</p>
             
-            <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
                 <button onclick="updateLocation(0)" id="btn-unit-0" class="unit-btn glass-card p-4 rounded-xl text-center reveal cursor-pointer hover:bg-white transition-all ring-2 ring-transparent focus:outline-none active-unit">
                     <h4 class="font-bold text-brand-red mb-2">Itapetinga</h4>
                     <p class="text-xs text-gray-600">R. João Pessoa, 39</p>
@@ -211,6 +211,10 @@
                 <button onclick="updateLocation(4)" id="btn-unit-4" class="unit-btn glass-card p-4 rounded-xl text-center reveal delay-400 cursor-pointer hover:bg-white transition-all ring-2 ring-transparent focus:outline-none">
                     <h4 class="font-bold text-brand-red mb-2">Vitória da Conquista</h4>
                     <p class="text-xs text-gray-600">Urbis V</p>
+                </button>
+                <button onclick="updateLocation(5)" id="btn-unit-5" class="unit-btn glass-card p-4 rounded-xl text-center reveal delay-500 cursor-pointer hover:bg-white transition-all ring-2 ring-transparent focus:outline-none">
+                    <h4 class="font-bold text-brand-red mb-2">Eunápolis</h4>
+                    <p class="text-xs text-gray-600">Av. Porto Seguro, 369 A</p>
                 </button>
             </div>
         </div>
@@ -246,8 +250,8 @@
                                 </div>
                                 <div>
                                     <p class="text-sm text-gray-500 font-semibold">Atendimento</p>
-                                    <p id="contact-phone" class="text-lg font-bold text-gray-800">(77) 3025-0910</p>
-                                    <p class="text-xs text-gray-500">Horário Comercial</p>
+                                    <p id="contact-phone" class="text-lg font-bold text-gray-800">+55 77 98102-1943</p>
+                                    <p id="contact-hours" class="text-xs text-gray-500">Seg. a Sex. (07h às 19h) | Sáb. (07h às 14h).<br>Fechado aos domingos e feriados.</p>
                                 </div>
                             </div>
 
@@ -257,7 +261,7 @@
                                 </div>
                                 <div>
                                     <p class="text-sm text-gray-500 font-semibold">Email</p>
-                                    <p class="text-md font-bold text-gray-800 break-all">ferrazandradeprodfarm@gmail.com</p>
+                                    <p id="contact-email" class="text-md font-bold text-gray-800 break-all">loja01@medmaispopular.com.br</p>
                                 </div>
                             </div>
                         </div>
