@@ -126,7 +126,7 @@ const locations = [
         phone: "+55 73 98131-5151",
         email: "loja05@medmaispopular.com.br",
         hours: "Seg. a Sex. (07h30 às 17h) | Sáb. (07h30 às 13h).<br>Fechado aos domingos e feriados.",
-        mapSrc: "http://googleusercontent.com/maps.google.com/5" 
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.9907335301045!2d-39.58689922490223!3d-16.374434437505155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7366dc5d64cdd4d%3A0x6176405b9a3e1d63!2sAv.%20Porto%20Seguro%2C%20369%20-%20Centro%2C%20Eun%C3%A1polis%20-%20BA%2C%2045820-002!5e0!3m2!1spt-BR!2sbr!4v1779826050169!5m2!1spt-BR!2sbr" 
     }
 ];
 
